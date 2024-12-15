@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>CodeHub</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the CodeHub</h1>
+        <p>Your one-stop solution for learning and coding resources.</p>
+        <nav>
+            <a href="#about">About</a> | 
+            <a href="#sign-up">Signup</a> |
+            <a href="coding_tutorials.html">CodeVault</a> |
+            <a href="#faqs">FAQs</a> |
+            <a href="#contact-us">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About CodeHub</h2>
+            <p>This platform is designed to help students grow their coding skills and access valuable resources.</p>
+            <blockquote>"Education is the most powerful weapon you can use to change the world."</blockquote>
+        </section>
+        
+        <section id="sign-up">
+            <h2>Sign Up for Updates</h2>
+            <p>Join the CodeHub to receive personalized updates and resources.</p>
+            <form action="#">
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Create a password" required>
+                <br>
+                <label for="interest">Topic of Interest:</label>
+                <select name="interest" id="interest" >
+                    <option value="" disabled selected>Choose a Topic</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javsscript">JavaScript</option>
+                    <option value="react">ReactJS</option>
+                    <option value="node">NodeJS</option>
+                    <option value="express">ExpressJS</option>
+                </select>
+                <br>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <section id="faqs">
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+                <dt>Q: What is CodeHub?</dt>
+                <dd>A: This is an education portal for students to access coding tutorials and resources.</dd>
+                <dt>Q: Is it free to use?</dt>
+                <dd>A: Yes, it's completely free.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Student Testimonials</h2>
+            <blockquote>"This website helped me kickstart my coding journey. Highly recommended!" - John Doe</blockquote>
+            <blockquote>"The tutorials are easy to understand and very helpful." - Jane Smith</blockquote>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer id="contact-us">
+        <p>For queries or support, reach us at: 
+            <a href="#">support@codehub.com</a>
+        </p>
+        <section>
+            <h2>Get in Touch</h2>
+            <form action="#">
+                <label for="query">Your Question:</label>
+                <br>
+                <textarea name="query" id="query" placeholder="Type your question here" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <p>Copyright &copy; 2024 Mohammad Mehfooz. All rights reserved.</p>
+        <a href="#">GitHub</a> |
+        <a href="#">Linkedin</a> |
+        <a href="#">X</a>
+    </footer>
+</body>
+</html>
